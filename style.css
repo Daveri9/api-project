@@ -1,0 +1,73 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/paw-prints-background-with-hearts-decoration_18591-84208.jpg?t=st=1731813419~exp=1731817019~hmac=ca71958a2045f1c9ba8e8b3d3b520a096836f7554a312950f810f8c7de43f132&w=1380);
+}
+
+
+h1 {
+    background-color: #8779A5;
+    color: rgb(31, 0, 48);
+    border: 2px solid #423a52;
+    width: 450px;
+    text-align: center;
+
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#fetch-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #E2B9CC;
+    border: 1px solid #c9a4b6;
+    border-radius: 5px;
+    margin: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+ #fetch-button:hover {
+    background-color: #b592a3;
+ }
+
+ #fetch-button.clicked {
+    background-color: #b592a3;
+    transform: scale(0.95);
+ }
+
+#dog-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px; 
+    padding: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    border: 2px solid #391587;
+    padding: 5px;
+    text-align: center;
+    width: 150px; 
+    height: auto;
+    border-radius: 5px;
+    background-color: #8171A0;
+    box-shadow: 0 2px 5px #453b50;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100px; 
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-size: 17px;
+    margin: 5px 0 0;
+    color: rgb(31, 0, 48);
+    font-weight: bold;
+}
